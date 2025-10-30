@@ -1,0 +1,33 @@
+{
+    "name": "coding-task/download",
+    "type": "library",
+    "description": "A library for downloading assets from various sources.",
+    "homepage": "https://www.johndoe.com",
+    "license": "proprietary",
+    "authors": [],
+    "require": {
+        "php": "^8.2",
+        "ext-hash": "*",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.0",
+        "symfony/config": "^5.0|^6.0",
+        "symfony/dependency-injection": "^5.0|^6.0",
+        "symfony/http-client-contracts": "^2.0|^3.0",
+        "symfony/http-foundation": "^5.0|^6.0",
+        "symfony/http-kernel": "^5.0|^6.0",
+        "symfony/mime": "^5.0|^6.0",
+        "symfony/http-client": "^5.0|^6.0"
+    },
+    "suggest": {
+        "nyholm/psr7": "PSR-7 implementation"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodingTask\\Download\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
